@@ -1,0 +1,16 @@
+{
+  "name": "feedback-platform",
+  "version": "1.0.0",
+  "description": "A full-stack feedback collection platform",
+  "scripts": {
+    "start": "./start.sh",
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test && cd ../frontend && npm test"
+  },
+  "keywords": ["feedback", "forms", "survey", "react", "node", "mongodb"],
+  "author": "",
+  "license": "MIT"
+}
