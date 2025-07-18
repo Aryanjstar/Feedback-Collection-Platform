@@ -367,7 +367,7 @@ db.responses.find()
 **Backend:**
 ```env
 PORT=5001
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/feedback-platform
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>
 JWT_SECRET=super_secure_production_secret_key
 NODE_ENV=production
 ```
